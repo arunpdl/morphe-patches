@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.1-dev.1",
+  "version": "1.0.1",
   "patches": [
     {
       "name": "Remove License Activity",
@@ -44,32 +44,6 @@
           "targets": [
             {
               "version": "2.0.REV-1707",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Unlock Symfonium",
-      "description": "Unlocks Symfonium and neutralizes the anti-tamper check that breaks playback on patched builds.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "app.symfonik.music.player",
-          "name": "Symfonium",
-          "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#FF6F00",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "14.1.0",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
