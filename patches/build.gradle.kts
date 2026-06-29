@@ -1,11 +1,11 @@
-group = "app.arunpdl"
+group = "app.frantic"
 
 patches {
     about {
-        name = "Arun's Morphe Patches"
+        name = "frantic's Morphe Patches"
         description = "Patches for apps I like"
         source = "git@github.com:arunpdl/morphe-patches.git"
-        author = "Arun"
+        author = "frantic"
         contact = "na"
         website = "na"
         license = "GPLv3"

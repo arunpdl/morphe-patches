@@ -1,4 +1,4 @@
-package app.arunpdl.extension.extension;
+package app.frantic.extension.extension;
 
 @SuppressWarnings("unused")
 public class ExamplePatch {

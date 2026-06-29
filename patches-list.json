@@ -1,5 +1,84 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "0.0.0",
-  "patches": []
+  "version": "1.0.0",
+  "patches": [
+    {
+      "name": "Remove License Activity",
+      "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.jellywatch.app",
+          "name": "JellyWatch",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#008577",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "2.0.REV-1707",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock Premium",
+      "description": "Unlocks all premium features and shop items in JellyWatch.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.jellywatch.app",
+          "name": "JellyWatch",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#008577",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "2.0.REV-1707",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock Symfonium",
+      "description": "Unlocks the full version of Symfonium by forcing the license state to premium.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "app.symfonik.music.player",
+          "name": "Symfonium",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#FF6F00",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "14.1.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
 }
