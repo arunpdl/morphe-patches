@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/arunpdl/morphe-patches/compare/v1.0.1...v1.0.2) (2026-06-29)
+
+### 🚀 Updated App Support
+
+* Add Prismatica Pro patches ([af0aba5](https://github.com/arunpdl/morphe-patches/commit/af0aba56e21d8dbbb6e32b8cc2e3c0fb06aff723))
+
 ## [1.0.2-dev.1](https://github.com/arunpdl/morphe-patches/compare/v1.0.1...v1.0.2-dev.1) (2026-06-29)
 
 ### 🚀 Updated App Support
